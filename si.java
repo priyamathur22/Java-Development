@@ -10,4 +10,4 @@ class si{
         System.out.println("Simple interest = " + SI);
     }
 }
-// This code calculates the simple interest based on principal (P), rate of interest (R), and time (T).
+// This code calculates the simple interest based on principal (P), rate of interest (R), and time (T)..
