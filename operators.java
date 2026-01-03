@@ -27,7 +27,7 @@ System.out.println(c--); //yaha pe pehle c ki value print hogi fir decrement hog
 System.out.println(--c); //yaha pe pehle c decrement hoga fir print hoga
 System.out.println(c); //abhi ki value print hogi
 */
-
+/* 
 //Maths class in java
 System.out.println(Math.min(5,6));
 System.out.println(Math.max(5,6));
@@ -36,6 +36,30 @@ System.out.println(Math.abs(-6)); //absolute value
 System.out.println(Math.round(4.6f)); //ye nearest integer me convert kar de
 System.out.println(Math.random()); //ye 0 se 1 ke beech me koi bhi random decimal value dega
 System.out.println((int)(Math.random() * 100)); //ye 0 se 100 ke beech me koi bhi random integer value dega
-    
+    */
+
+//3. Comparison Operators - ==, !=, >, <, >=, <=
+int x = 5;
+int y = 10;
+System.out.println(x == y); //equal false
+System.out.println(x != y); //not equal true
+System.out.println(x > y); //greatan than
+System.out.println(x < y); //true
+System.out.println(x >= y); //false
+System.out.println(x <= y); //true
+
+//4. Logical Operators - && (AND), || (OR), ! (NOT)
+boolean a = true;
+boolean b = false;
+System.out.println(a && b); //false
+System.out.println(a || b); //true
+System.out.println(!a); //false
+System.out.println(!b); //true
+System.out.println((x < y) && (a == true)); //true
+System.out.println((x > y) || (b == false)); //true
+System.out.println(!(x < y)); //false
+System.out.println(!(a && b)); //true
+
+
 }
 }
