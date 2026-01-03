@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Basics {
     public static void main(String[] args) {
 //VARIABLES
@@ -35,5 +37,20 @@ System.out.println(name.toUpperCase()); //toUpperCase is a method of string clas
 // some keyword are fixed but new is used to create object of class
 String name4 = new String("Hello_World");
 System.out.println(name4.toLowerCase());
+
+
+//How to take input from user
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter your age: ");
+int userAge = sc.nextInt(); //for integer input
+System.out.println("Your age is: " + userAge);
+System.out.println("Enter your name: ");
+String userName = sc.next(); //for single word input
+System.out.println("Your name is: " + userName); //take input a word
+String fullName = sc.nextLine();//agar pura line lena h to nextLine() method ka use karna hoga
+System.out.println("Enter your full name: ");
+fullName = sc.nextLine();
+System.out.println("Your full name is: " + fullName);
+
 }
 }
