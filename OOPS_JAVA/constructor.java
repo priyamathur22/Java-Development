@@ -73,3 +73,4 @@ public class constructor {
         s3.printInfo();
     }
 }
+// destructor concept is not present in Java as it has automatic garbage collection.
