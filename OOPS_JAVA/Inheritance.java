@@ -25,6 +25,14 @@ class Circle extends Shape {
         System.out.println(3.14*r*r);
     }
 }
+
+//hybrid inheritance - ye sabka combination hota hai 
+
+//multiple inheritance using interfaces
+/*interface A {
+    void display();
+}
+
 public class Inheritance {
    public static void main (String[] args) {
 

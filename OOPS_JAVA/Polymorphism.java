@@ -19,6 +19,7 @@ System.out.println("Name: " + name + ", Age: " + age);
         }
 
     }
+
         public static void main(String args[]){
             Polymorphism outer = new Polymorphism();
             Student s1 = outer.new Student();
